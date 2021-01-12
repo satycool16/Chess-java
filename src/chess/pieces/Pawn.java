@@ -6,7 +6,7 @@ import chess.ChessState;
 import chess.pieces.utils.PieceLocation;
 import chess.pieces.interfaces.pieceInterface;
 
-public class Pawn implements pieceInterface {
+public class Pawn {
     PieceLocation pieceLocation;
     char piece;
     char color;
@@ -23,7 +23,6 @@ public class Pawn implements pieceInterface {
     public  boolean canMoveDiagnol(){
         return false;
     }
-
     public boolean canMoveBack(){
         return false;
     }

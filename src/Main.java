@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         ChessState myChess = new ChessState();
-        //myChess.print();
+        myChess.print();
         myChess.init();
         System.out.println("New Chess");
         myChess.print();
